@@ -25,3 +25,23 @@ body {
   color: var(--text-color-secondary);
   background-color: var(--background-color);
 }
+
+a {
+  text-decoration: none;
+  color: inherit; /*inherit: herdar a cor do pai*/
+}
+
+a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+}
+
+.container {
+  padding-inline: 32px; /*vai aplicar só nas laterais*/
+  max-width: 1280px;
+  margin-inline: auto; /*vai aplicar só nas laterais*/
+}
+
+.bg-surface-color {
+  background-color: var(--surface-color);
+}
